@@ -6,15 +6,16 @@ This project is a Facial Matching System built using Streamlit, DeepFace, and Op
 
 # Features:
 Upload an image of a person for matching.
+
 Upload a folder of images to compare against.
+
 Uses AI-powered DeepFace to perform face detection and recognition.
+
 Displays the uploaded image and the matched image side by side.
-Progress spinner to indicate processing.
-Professional and visually appealing interface with custom HTML and CSS.
 
 # Technologies Used:
-Python 3.8+
-Streamlit: For building the web application interface.
+Python 3.8+. 
+Streamlit: For building the web application interface. 
 DeepFace: For face detection and recognition.
 OpenCV: For image processing.
 NumPy: For numerical computations.
@@ -25,15 +26,18 @@ I'll recommend you to create an separate virtual environment for this app to avo
 & setup, install dependencies (Use anaconda's conda package manager)
 ## 1. Clone the Repository
 git clone https://github.com/asifaslam360/Facense-AI-Facial-Matching-App.git
+
 cd  Facense-AI-Facial-Matching-App
 ## 2. Install Dependencies:
 ## Prerequisites
 - Python 3.8 is required to run this project. Please install it from [Python's official website](https://www.python.org/downloads/).
 Ensure you have Python 3.8+ installed.(Project works fine with python 3.8)
 Then, install the required packages:
+
 pip install -r requirements.txt
 ## 3. Run the Application:
 Run the Streamlit app using the following command:
+
 streamlit run facense.py
 
 # Usage Instructions:
@@ -47,11 +51,11 @@ streamlit run facense.py
 Note:I've uploaded some images in my repository , you can use that test data to test the app's working.
 
 # Dependencies
-streamlit
-deepface
-opencv-python
-numpy
-pillow
+streamlit. 
+deepface. 
+opencv-python. 
+numpy. 
+pillow. 
 
 # About Me:
 ## Asif Aslam
@@ -61,6 +65,8 @@ pillow
 # Project Submitted to:
 ## Sir Muhammad Waleed (Kfueit)
 ### Date: 15/12/2024
+
+#facial-matching-system #ai-facial-matching-system #facial-matching-app #python-project #streamlit-project
 
 
 
