@@ -23,16 +23,18 @@ Pillow: For image handling.
 
 # Setup and Installation:
 I'll recommend you to create an separate virtual environment for this app to avoid possible dependencies conflicts 
-& setup, install dependencies (Use anaconda's conda package manager)
+& setup, install dependencies (Suggested:Use anaconda's conda environment manager).
+
+## Prerequisites
+- Python 3.8 is required to run this project. Please install it from [Python's official website](https://www.python.org/downloads/).
+Ensure you have Python 3.8+ installed.(Project works fine with python 3.8.0)
+
 ## 1. Clone the Repository
 git clone https://github.com/asifaslam360/Facense-AI-Facial-Matching-App.git
 
 cd  Facense-AI-Facial-Matching-App
 ## 2. Install Dependencies:
-## Prerequisites
-- Python 3.8 is required to run this project. Please install it from [Python's official website](https://www.python.org/downloads/).
-Ensure you have Python 3.8+ installed.(Project works fine with python 3.8)
-Then, install the required packages:
+install the required packages:
 
 pip install -r requirements.txt
 ## 3. Run the Application:
@@ -46,15 +48,22 @@ streamlit run facense.py
 3. Upload or select a folder of images on the right column.
 4. Click Start Matching to begin the process.
   The app will display:
+
 . The target image in the left image box.
+
 . The matched image (if found) in the right image box.
+
 Note:I've uploaded some images in my repository , you can use that test data to test the app's working.
 
 # Dependencies
 streamlit. 
-deepface. 
+
+deepface.(deepface installation may require tensorflow)
+
 opencv-python. 
+
 numpy. 
+
 pillow. 
 
 # About Me:
